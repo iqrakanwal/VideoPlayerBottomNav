@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_300sdp"
+    android:layout_height="@dimen/_150sdp"
+    android:layout_gravity="center"
+    android:padding="@dimen/_20sdp"
+    android:background="@drawable/backgroundwhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Playlist"
+        android:id="@+id/text"
+
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_30sdp"
+    android:layout_below="@+id/text"
+    android:padding="@dimen/_5sdp"
+    android:textColor="#000"
+    android:background="@drawable/bg_edittext_icon"
+
+    android:id="@+id/edittext"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@+id/edittext"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_centerVertical="true"
+        android:background="#fff"
+        android:gravity="end"
+        android:orientation="horizontal">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_alignParentEnd="true"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+
+    android:layout_gravity="center"
+    android:id="@+id/cancel"
+    android:text="Cancel"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/ok"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:text="OK"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete"
+    android:textColor="#4b4b4b"
+    app:showAsAction="never"
+
+    android:title="Delete">
+    </item>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:textColor="#4b4b4b"
+        app:showAsAction="never"
+
+        android:title="share">
+    </item>
+
+</menu>

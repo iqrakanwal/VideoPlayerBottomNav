@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/changepassword"
+        android:title="Change Password"> </item>
+
+    <item
+        android:id="@+id/sort"
+        android:title="Sort">
+    </item>
+    <item
+        android:id="@+id/changesecuritycode"
+        android:title="Change Security Question">
+    </item>
+    <item
+        android:id="@+id/fingerprint"
+        android:title="Fingerprint to unlock"
+        app:actionViewClass="android.widget.Switch"
+       />
+</menu>

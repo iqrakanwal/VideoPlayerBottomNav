@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?background_customize"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.Hiddencabinet"
+    android:id="@+id/container_view">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Security question"
+        android:textColor="?text_color"
+
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_15sdp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/ic_securityquestionicon" />
+
+
+    <TextView
+        android:id="@+id/textb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Reset your forgotten password by\nsecurity question"
+        android:textColor="?text_color"
+
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_15sdp" />
+    <TextView
+        android:id="@+id/textc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Choose Your Question"
+        android:textColor="?text_color"
+
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_15sdp" />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp"
+        android:background="#fff"
+
+        android:layout_margin="@dimen/_10sdp"
+        android:id="@+id/questionslist"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_15sdp"
+        android:background="@drawable/bg_edittext_icon"
+        android:layout_margin="@dimen/_10sdp"
+        android:id="@+id/answer"/>
+
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/ad_layout"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:text="Ads Space"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:textColor="?text_color"-->
+<!--            />-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/banner_container"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            >-->
+
+<!--        </LinearLayout>-->
+<!--    </RelativeLayout>-->
+
+
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:gravity="center"
+        android:background="@drawable/rectangle"
+        android:text="save"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

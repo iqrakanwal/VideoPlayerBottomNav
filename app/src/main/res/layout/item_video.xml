@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_4sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:id="@+id/container">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_2sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_margin="5dp"
+            android:id="@+id/cardview">
+
+            <RelativeLayout
+                android:id="@+id/layout_left"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+               >
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:scaleType="centerCrop" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toStartOf="@id/imageViewOption"
+            android:layout_toEndOf="@id/cardview"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/txtVideoTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:maxLines="2"
+                android:text="You Belong With me that mean you alway belong with me"
+                android:textColor="?attr/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtVideoDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_below="@id/txtVideoTitle"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="?text_color"
+
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/txtVideoPath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:singleLine="true"
+                android:text="hello this is the path of the video"
+                android:textColor="?attr/text_color"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageViewOption"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_options"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+
+
+            android:id="@+id/linearlayout">
+
+
+            <CheckBox
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:button="@drawable/check_circle"
+                android:scaleX="0.8"
+                android:scaleY="0.8" />
+
+        </LinearLayout>
+
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/check"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+
+<!--            />-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/text_color"
+        android:alpha="0.1"/>
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ad_layout"
+        android:layout_gravity="bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Ads Space"
+            android:layout_centerVertical="true"
+            android:textColor="?text_color"
+            />
+        <LinearLayout
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

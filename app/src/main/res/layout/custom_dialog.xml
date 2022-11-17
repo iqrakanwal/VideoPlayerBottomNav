@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundwhite"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/ic_splashicon" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:layout_margin="@dimen/_20sdp"
+        android:text="To play Videos please allow Video Player to access videos on your device."
+        android:textAlignment="center" />
+
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp">
+
+
+        <Button
+            android:id="@+id/allow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:text="Allow"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundwhite"
+            android:text="close"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

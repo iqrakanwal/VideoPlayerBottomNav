@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/content_alarm"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/backgroundwhite"
+    android:padding="@dimen/_12sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:lineSpacingExtra="1sp"
+        android:text="Sort by"
+        />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:id="@+id/radiogroup"
+    android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:textColor="#4b4b4b"
+            android:layout_margin="@dimen/_5sdp"
+            android:checked="true"
+            android:buttonTint="@color/black"
+            android:id="@+id/nameradio"
+            android:layout_height="wrap_content"/>
+
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Date"
+            android:textColor="#4b4b4b"
+            android:layout_margin="@dimen/_5sdp"
+
+            android:buttonTint="@color/black"
+
+            android:id="@+id/dateradio"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Size"
+            android:textColor="#4b4b4b"
+            android:layout_margin="@dimen/_5sdp"
+            android:buttonTint="@color/black"
+            android:id="@+id/sizeradio"
+            android:layout_height="wrap_content"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Length"
+            android:textColor="#4b4b4b"
+            android:layout_margin="@dimen/_5sdp"
+
+            android:id="@+id/lengthradio"
+            android:buttonTint="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+</RadioGroup>
+
+
+
+<!--    <View-->
+<!--        android:layout_width="@dimen/_250sdp"-->
+<!--        android:layout_height="@dimen/_1sdp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="#000"/>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_margin="@dimen/_5sdp"-->
+<!--        android:padding="@dimen/_5sdp"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="From Big to Small"-->
+<!--            android:buttonTint="@color/black"-->
+
+<!--            android:textColor="#4b4b4b"-->
+<!--            android:id="@+id/bigtosmall"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_margin="@dimen/_5sdp"-->
+<!--        android:padding="@dimen/_5sdp"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="From Small to Big"-->
+<!--            android:textColor="#4b4b4b"-->
+<!--            android:id="@+id/smalltobig"-->
+<!--            android:buttonTint="@color/black"-->
+
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </RelativeLayout>-->
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:fontFamily="sans-serif"
+            android:text="Cancel"
+            android:textColor="#4b4b4b"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:fontFamily="sans-serif"
+
+            android:text="Ok"
+            android:textColor="#4b4b4b"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

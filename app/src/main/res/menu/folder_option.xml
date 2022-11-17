@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addtoplaylist"
+        android:icon="@drawable/ic_playnext"
+        app:showAsAction="never"
+        android:title="Add to Playlist"> </item>
+
+
+    <item
+        android:id="@+id/privatefolder"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_folder_security"
+        android:title="Lock to Private Folder">
+    </item>
+
+
+    <item
+        android:id="@+id/rename"
+        app:showAsAction="never"
+
+        android:icon="@drawable/ic_edit"
+        android:title="Rename">
+    </item>
+
+    <item
+        android:id="@+id/delete"
+    app:showAsAction="never"
+
+    android:icon="@drawable/ic_bin"
+        android:title="Delete">
+    </item>
+
+    <item
+        android:id="@+id/properties"
+        app:showAsAction="never"
+
+        android:icon="@drawable/ic_properties"
+        android:title="Properties">
+    </item>
+</menu>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/content_alarm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/backgroundwhite"
+    android:padding="@dimen/_12sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:id="@+id/filename"
+        android:textColor="#000000"
+        android:lineSpacingExtra="1sp"
+        android:text="Folder Details"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtDateAdded"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:textColor="#4b4b4b"
+            android:fontFamily="sans-serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "File"/>
+        <TextView
+            android:id="@+id/foldername"
+            android:layout_toEndOf="@id/txtDateAdded"
+            android:layout_marginStart="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+
+            android:textColor="#4b4b4b"
+            android:lineSpacingExtra="0.8sp"
+            android:text="video-210145.mp4"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/location"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:textColor="#4b4b4b"
+            android:fontFamily="sans-serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Location"/>
+        <TextView
+            android:id="@+id/folderlocation"
+            android:layout_toEndOf="@id/location"
+            android:layout_marginStart="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+
+            android:textColor="#4b4b4b"
+            android:lineSpacingExtra="0.8sp"
+            android:text="video-210145.mp4"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/size"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:textColor="#4b4b4b"
+            android:fontFamily="sans-serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Size"/>
+        <TextView
+            android:id="@+id/foldersize"
+            android:layout_toEndOf="@id/size"
+            android:layout_marginStart="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+
+            android:textColor="#4b4b4b"
+            android:lineSpacingExtra="0.8sp"
+            android:text="video-210145.mp4"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/date"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:textColor="#4b4b4b"
+            android:fontFamily="sans-serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Date"/>
+        <TextView
+            android:id="@+id/folderdate"
+            android:layout_toEndOf="@id/date"
+            android:layout_marginStart="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+
+            android:textColor="#4b4b4b"
+            android:lineSpacingExtra="0.8sp"
+            android:text="video-210145.mp4"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#4b4b4b"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:id="@+id/ok"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/_8sdp"
+        android:text="Ok"/>
+
+</LinearLayout>

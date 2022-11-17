@@ -1,0 +1,308 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="TextAppearance.Widget.IconMenu.Item" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CustomSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#C95E5E</item>
+        <item name="colorSwitchThumbNormal">#565656</item>
+        <item name="android:colorForeground">#383838</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppThemeLightBasic0" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/greentheme</item>
+        <item name="colorAccent">@color/greentheme</item>
+        <item name="accent_color">@color/nice_green</item>
+        <item name="text_color">@color/white</item>
+        <item name="toolbarcolor">#4eabe8</item>
+
+        <item name="android:itemBackground">@color/black</item>
+        <item name="stylepop">@style/PopupMenu</item>
+
+        <item name="them_color_opp">@color/white</item>
+        <item name="imagetint">@color/bluet</item>
+        <item name="background_customize">@color/bluet</item>
+        <item name="background_color">@color/white</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="popupTheme">@style/PopupMenu</item>
+
+        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>
+    </style>
+
+
+<!--    <style name="menu" parent="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">-->
+<!--        <item name="android:background">@drawable/backgroundwhite</item>-->
+<!--        <item name="android:textColor">@color/black</item>-->
+
+
+
+<!--    </style>-->
+
+
+    <style name="AppThemeLightBasic1" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="accent_color">@color/nice_pink</item>
+        <item name="imagetint">@color/blackt</item>
+
+        <item name="text_color">@color/white</item>
+        <item name="them_color_opp">@color/white</item>
+        <item name="background_customize">@color/blackt</item>
+        <item name="toolbarcolor">#2D2D2E</item>
+        <item name="stylepop">@style/PopupMenu</item>
+
+        <item name="background_color">@color/white</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>
+    </style>
+<!--    <style name="AppThemeLightBasic2" parent="Theme.AppCompat.NoActionBar">-->
+<!--        <item name="colorSwitchThumbNormal">@color/dark</item>-->
+<!--        <item name="imagetint">@color/greent</item>-->
+<!--        <item name="colorPrimary">@color/nice_pink1</item>-->
+<!--        <item name="colorPrimaryDark">@color/greent</item>-->
+<!--        <item name="colorAccent">@color/black</item>-->
+<!--        <item name="accent_color">@color/nice_pink1</item>-->
+<!--        <item name="text_color">@color/white</item>-->
+<!--        <item name="them_color_opp">@color/white</item>-->
+<!--        <item name="background_customize">@color/greent</item>-->
+<!--        <item name="background_color">@color/white</item>-->
+<!--        <item name="alertDialogTheme">@style/AlertDialogCustom</item>-->
+<!--        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>-->
+<!--    </style>-->
+<!--    <style name="AppThemeLightBasic3" parent="Theme.AppCompat.NoActionBar">-->
+
+<!--        <item name="colorPrimary">@color/nice_pink2</item>-->
+<!--        <item name="colorPrimaryDark">@color/purplet</item>-->
+<!--        <item name="colorAccent">@color/black</item>-->
+<!--        <item name="imagetint">@color/white</item>-->
+
+<!--        <item name="accent_color">@color/nice_pink2</item>-->
+<!--        <item name="text_color">@color/white</item>-->
+<!--        <item name="them_color_opp">@color/white</item>-->
+<!--        <item name="background_customize">@color/purplet</item>-->
+<!--        <item name="background_color">@color/white</item>-->
+<!--        <item name="alertDialogTheme">@style/AlertDialogCustom</item>-->
+<!--        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>-->
+<!--    </style>-->
+    <style name="AppThemeLightBasic4" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorPrimary">@color/nice_blue</item>
+        <item name="colorPrimaryDark">@color/bg2</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="imagetint">@color/nice_blue</item>
+        <item name="toolbarcolor">#2E4E9A</item>
+        <item name="stylepop">@style/PopupMenu</item>
+
+        <item name="accent_color">@color/nice_blue</item>
+        <item name="text_color">@color/black</item>
+        <item name="them_color_opp">@color/white</item>
+        <item name="background_customize">@drawable/drawablebackground4</item>
+        <item name="background_color">@color/white</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>
+    </style>
+    <style name="AppThemeLightBasic9" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <item name="imagetint">@color/navybluet</item>
+        <item name="colorPrimary">@color/nice_red</item>
+        <item name="colorPrimaryDark">@color/navybluet</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="toolbarcolor">#2E4E9A</item>
+        <item name="stylepop">@style/PopupMenu</item>
+
+        <item name="accent_color">@color/nice_red</item>
+        <item name="text_color">@color/white</item>
+        <item name="them_color_opp">@color/white</item>
+        <item name="background_customize">@color/navybluet</item>
+        <item name="background_color">@color/white</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>
+    </style>
+<!--    <style name="AppThemeLightBasic6" parent="Theme.AppCompat.NoActionBar">-->
+
+
+
+<!--        <item name="imagetint">@color/white</item>-->
+<!--        <item name="colorPrimary">@color/nice_pink3</item>-->
+<!--        <item name="colorPrimaryDark">@color/frozyt</item>-->
+<!--        <item name="colorAccent">@color/black</item>-->
+<!--        <item name="toolbarcolor">#2E4E9A</item>-->
+<!--        <item name="stylepop">@style/PopupMenu</item>-->
+
+<!--        <item name="accent_color">@color/nice_pink3</item>-->
+<!--        <item name="text_color">@color/white</item>-->
+<!--        <item name="them_color_opp">@color/white</item>-->
+<!--        <item name="background_customize">@color/frozyt</item>-->
+<!--        <item name="background_color">@color/white</item>-->
+<!--        <item name="alertDialogTheme">@style/AlertDialogCustom</item>-->
+<!--        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>-->
+<!--    </style>-->
+<!--    <style name="AppThemeLightBasic7" parent="Theme.AppCompat.NoActionBar">-->
+<!--        <item name="imagetint">@color/white</item>-->
+<!--        <item name="colorPrimary">@color/nice_green1</item>-->
+<!--        <item name="colorPrimaryDark">@color/pinkt</item>-->
+<!--        <item name="colorAccent">@color/black</item>-->
+<!--        <item name="accent_color">@color/nice_green1</item>-->
+<!--        <item name="text_color">@color/white</item>-->
+<!--        <item name="them_color_opp">@color/white</item>-->
+<!--        <item name="background_customize">@color/pinkt</item>-->
+<!--        <item name="background_color">@color/white</item>-->
+<!--        <item name="alertDialogTheme">@style/AlertDialogCustom</item>-->
+<!--        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>-->
+<!--    </style>-->
+    <style name="AppThemeLightBasic8" parent="Theme.AppCompat.NoActionBar">
+        <item name="imagetint">@color/tint</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="toolbarcolor">#2E4E9A</item>
+
+        <item name="accent_color">@color/nice_purple</item>
+        <item name="text_color">@color/tint</item>
+        <item name="them_color_opp">@color/white</item>
+        <item name="background_customize">@color/bg_customize</item>
+        <item name="background_color">@color/white</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>
+    </style>
+    <style name="AppThemeLightBasic5" parent="Theme.AppCompat.NoActionBar">
+        <item name="imagetint">#461698</item>
+
+
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="accent_color">@color/white</item>
+        <item name="text_color">@color/white</item>
+        <item name="them_color_opp">@color/white</item>
+        <item name="toolbarcolor">#6c1e9a</item>
+        <item name="stylepop">@style/PopupMenu</item>
+
+        <item name="background_customize">@drawable/drawablebackground5</item>
+        <item name="background_color">@color/white</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>
+    </style>
+
+    <style name="AppThemeDarkBasic" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="imagetint">@color/white</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/bluet</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="accent_color">@color/black</item>
+        <item name="text_color">@color/white</item>
+        <item name="them_color_opp">@color/white70</item>
+        <item name="background_customize">@color/bluet</item>
+        <item name="background_color">@color/black0</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item>
+
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MySeekBar" parent="@style/Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#00EC0A</item>
+        <item name="android:progressTint">#0B9111</item>
+        <item name="android:colorControlActivated">#c51162</item>
+    </style>
+
+
+    <style name="MySeekBargesture" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#32A337</item>
+        <item name="android:progressTint">#127717</item>
+        <item name="android:width">@dimen/_35sdp</item>
+    </style>
+
+
+    <style name="AppThemeForNowPlaying" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+
+
+
+        <item name="colorPrimary">@color/nice_green</item>
+        <item name="colorPrimaryDark">@color/nice_green</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="accent_color">@color/nice_green</item>
+        <item name="text_color">@color/black</item>
+        <item name="them_color_opp">@color/white</item>
+        <item name="background_customize">@color/bg_customize</item>
+        <item name="background_color">@color/white</item>
+    </style>
+
+    <!-- Dialog -->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/white70</item>
+        <item name="buttonBarPositiveButtonStyle">@style/MyAlertDialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MyAlertDialogButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/MyAlertDialogButtonStyle</item>
+    </style>
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#B6B5B5</item>
+        <item name="colorControlActivated">#F1BD06</item>
+    </style>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>'
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="MyAlertDialogButtonStyle" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+<!--        <item name="android:textSize">@dimen/text_size_medium</item>-->
+    </style>
+    <style name="MyDialogFadeAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">#2689D5</item>
+        <item name="text_color">#CDDC39</item>
+    </style>
+    <style name="YOURSTYLE" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@android:color/holo_red_light</item>
+    </style>
+
+    <color name="greentheme">#00de2c</color>
+    <color name="tint">#2d74aa</color>
+</resources>

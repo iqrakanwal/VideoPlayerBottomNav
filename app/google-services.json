@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862520997739",
+    "firebase_url": "https://private-media-p.firebaseio.com",
+    "project_id": "private-media-p",
+    "storage_bucket": "private-media-p.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862520997739:android:b9b27979531980fe733e2e",
+        "android_client_info": {
+          "package_name": "com.videoplayer.mediaplaye.privatevideo.player"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862520997739-523i50q29mdjf767jds3hai2482q0oiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_qGt2LsvkrtL-oePE6vxbsepAugEnGYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862520997739-523i50q29mdjf767jds3hai2482q0oiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

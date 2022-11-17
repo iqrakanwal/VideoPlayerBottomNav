@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/grid"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_grid"
+        android:title="Grid">    </item>
+
+    <item
+        android:id="@+id/privatefolder"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_folder_security"
+        android:title="PrivateFolder">
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_search"
+        android:title="Settings">
+    </item>
+</menu>

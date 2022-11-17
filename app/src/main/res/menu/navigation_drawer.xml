@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/equlizer"
+            android:icon="@drawable/ic_equlizer"
+            android:title="Equlizer" />
+
+        <item
+            android:id="@+id/removeads"
+            android:icon="@drawable/ic_removeadd"
+            android:title="Remove Ads" />
+        <item
+            android:id="@+id/hidden"
+            android:icon="@drawable/ic_hiddencontent"
+            android:title="Hidden Cabinet" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+
+
+</menu>

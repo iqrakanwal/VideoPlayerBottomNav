@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/privatef"
+        android:icon="@drawable/ic_folder_security"
+        android:textColor="#4b4b4b"
+        android:title="Lock in Private Folder"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/addtoplaylist"
+        android:icon="@drawable/ic_playlistop"
+        android:textColor="#4b4b4b"
+        android:title="Add to Playlist"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/addtofavirote"
+        android:icon="@drawable/ic_star"
+        android:textColor="#4b4b4b"
+        android:title="Add to Favirote"
+
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/rename"
+        android:icon="@drawable/ic_delete"
+        android:textColor="#4b4b4b"
+        android:title="Rename"
+
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_bin"
+        android:textColor="#4b4b4b"
+        android:title="Delete"
+
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:textColor="#4b4b4b"
+        android:title="share"
+
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/properties"
+        android:icon="@drawable/ic_properties"
+        android:title="Properties"
+
+
+        app:showAsAction="never"></item>
+</menu>

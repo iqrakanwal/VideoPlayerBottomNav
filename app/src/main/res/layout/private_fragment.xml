@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background_customize"
+    android:id="@+id/framelayoutrecent"
+    tools:context=".fragments.RecentsFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/music_recyclar_view"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/ad_layout"
+            android:layout_marginBottom="2dp"
+
+            android:id="@+id/view"
+            android:background="#c5797979" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ad_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Ads Space"
+                android:layout_centerVertical="true"
+                android:textColor="#000"
+                />
+            <LinearLayout
+                android:id="@+id/banner_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

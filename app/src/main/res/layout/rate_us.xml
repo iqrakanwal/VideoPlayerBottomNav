@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_star_empty"
+        android:tint="#fff"
+        android:padding="3dp"
+        android:elevation="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How was your experience \nwith us?"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/stars"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/star_1"
+            android:background="@drawable/ic_star_empty"
+            android:onClick="btn_1"
+            />
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/star_2"
+            android:background="@drawable/ic_star_empty"
+            android:onClick="btn_2"
+            />
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/star_3"
+            android:background="@drawable/ic_star_empty"
+            android:onClick="btn_3"
+            />
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/star_4"
+            android:background="@drawable/ic_star_empty"
+            android:onClick="btn_4"
+            />
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/star_5"
+            android:background="@drawable/ic_star_empty"
+            android:onClick="btn_5"
+            />
+
+
+    </LinearLayout>
+    <RatingBar
+
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:singleLine="true"
+        android:stepSize="0.5"
+        android:layout_gravity="center"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:theme="@style/RatingBar"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+
+        />
+    <com.willy.ratingbar.ScaleRatingBar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srb_numStars="5"
+        app:srb_minimumStars="0"
+        app:srb_starWidth="25dp"
+        app:srb_starHeight="30dp"
+        app:srb_starPadding="5dp"
+        app:srb_stepSize="1"
+        app:srb_rating="0"
+        app:srb_isIndicator="false"
+        app:srb_clickable="true"
+        app:srb_scrollable="true"
+        app:srb_clearRatingEnabled="true"
+        app:srb_drawableEmpty="@drawable/ic_star_empty"
+        app:srb_drawableFilled="@drawable/ic_star_filled"
+        android:layout_gravity="center"
+
+
+        >
+    </com.willy.ratingbar.ScaleRatingBar>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        >
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:layout_gravity="center"
+    android:text="May be later"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    android:onClick="rate_us"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:gravity="center"
+    android:id="@+id/button"
+
+
+    />
+
+    </LinearLayout>
+
+</LinearLayout>

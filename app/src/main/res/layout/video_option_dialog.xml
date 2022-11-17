@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?background_customize"
+    android:padding="3dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/playlisticon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/_2sdp"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_playlisticon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Playlist"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/playlisticon"
+            android:textColor="?text_color"
+            android:textSize="@dimen/_15sdp" />
+
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:src="@drawable/ic_add" />
+
+
+    </RelativeLayout>
+
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:id="@+id/recyclarbottomsheet"/>
+
+</LinearLayout>

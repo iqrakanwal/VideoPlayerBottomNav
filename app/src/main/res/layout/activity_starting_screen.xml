@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?background_customize"
+    android:orientation="vertical"
+    tools:context=".activities.StartingScreen">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="?text_color"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_65sdp"
+        android:text="Video Player" />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/icon"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:src="@mipmap/ic_launcher"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="?text_color"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:background="?colorAccent"
+        android:text="GET STARTED" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textColor="?text_color"
+        android:layout_gravity="center"
+
+        android:text="By Continuing you are agreeing to Privacy Policy"/>
+
+</LinearLayout>

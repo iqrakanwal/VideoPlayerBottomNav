@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/next_play"
+        android:icon="@drawable/ic_playnext"
+        app:showAsAction="never"
+        android:title="Next Play"> </item>
+
+    <item
+        android:id="@+id/addtoQueue"
+        app:showAsAction="never"
+
+        android:icon="@drawable/ic_queue"
+        android:title="Add To Queue">
+    </item>
+    <item
+        android:id="@+id/addtoplaylist"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_playlistop"
+        android:title="Add to Playlist">
+    </item>
+    <item
+        android:id="@+id/privatefolder"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_search"
+        android:title="Lock to Private Folder">
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/delete"
+    app:showAsAction="never"
+
+    android:icon="@drawable/ic_bin"
+        android:title="Delete">
+    </item>
+    <item
+        android:id="@+id/share"
+        app:showAsAction="never"
+
+        android:icon="@drawable/ic_share"
+        android:title="share">
+    </item>
+    <item
+        android:id="@+id/properties"
+        app:showAsAction="never"
+
+        android:icon="@drawable/ic_properties"
+        android:title="Properties">
+    </item>
+</menu>

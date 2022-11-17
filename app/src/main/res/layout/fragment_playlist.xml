@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/_60sdp"
+    tools:context=".fragments.PlaylistFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/playlisticon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/_2sdp"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_playlisticon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Playlist"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/playlisticon"
+            android:textColor="?text_color"
+            android:textSize="@dimen/_15sdp" />
+
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:src="@drawable/ic_add" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/favirote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playlist"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/faviroteicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_star" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/favirotetext"
+    android:text="song"
+    android:layout_marginTop="@dimen/_13sdp"
+    android:layout_marginLeft="@dimen/_25sdp"
+    android:id="@+id/numofsongs"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/favirotetext"
+            android:text="Favorite"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/faviroteicon"
+            android:textColor="?text_color"
+            android:textSize="@dimen/_15sdp" />
+
+
+        <ImageView
+            android:id="@+id/option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:src="@drawable/ic_optionmenu" />
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylarforplaylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/favirote"
+        android:layout_margin="@dimen/_10sdp" />
+
+<!--    <View-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginBottom="2dp"-->
+<!--        android:id="@+id/view"-->
+<!--        android:background="#c5797979" />-->
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/ad_layout"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:text="Ads Space"-->
+
+<!--            android:layout_centerVertical="true"-->
+<!--            android:textColor="?text_color"-->
+<!--            />-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/banner_container"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            >-->
+
+<!--        </LinearLayout>-->
+<!--    </RelativeLayout>-->
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.videoplayer.mediaplaye.privatevideo.player">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Microphone permissions -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- Foreground Service permission(API level 28 or higher) -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name=".classes.VideopUtils"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MusicDetail"></activity>
+        <activity android:name=".activities.AudioSongsdetail" />
+        <activity android:name=".activities.MainClassAgain" />
+        <activity android:name=".activities.FolderDetails" />
+        <activity android:name=".activities.StartingScreen" />
+        <activity android:name=".activities.ForgetPAssword" />
+        <activity android:name=".activities.Equalizeracitity" />
+        <activity android:name=".activities.FingerPrintActivity" />
+        <activity android:name=".activities.EnterPin" />
+        <activity android:name=".activities.PasswordCheck" />
+        <activity android:name=".activities.PlayerCheck" />
+        <activity android:name=".activities.Playlistfiles" />
+        <activity android:name=".activities.GetFavorite" />
+        <activity android:name=".activities.FavoriteActivity" />
+        <activity android:name=".activities.Equalizerclass" />
+        <activity android:name=".activities.PrivateFolder" />
+        <activity android:name=".activities.PinScreenClass" >
+
+        </activity>
+        <activity android:name=".activities.MainClass" />
+
+        <receiver android:name=".MediaButtonIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activities.SearchActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensor" />
+        <activity android:name=".activities.Hiddencabinet" />
+        <activity android:name=".activities.SelectVideoAudio" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThemeActivity" />
+        <activity
+            android:name=".mandatoryfiles.buy_panel"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+
+        <service
+            android:name=".VideoBackendService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".MainScreen" />
+        <activity
+            android:name=".activities.PlayVideoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppThemeForNowPlaying">
+            <intent-filter>
+                <action android:name="com.google.android.exoplayer.demo.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="asset" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+
+        <provider
+            android:name=".utills.VideoPlayerProvider"
+            android:authorities="com.videoplayer.mediaplaye.privatevideo.player"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+            <meta-data
+                android:name="com.commonsware.cwac.provider.USE_LEGACY_CURSOR_WRAPPER"
+                android:value="true" />
+        </provider>
+    </application>
+
+</manifest>

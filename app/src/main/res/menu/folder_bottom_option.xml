@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/addtoplaylist"
+        android:icon="@drawable/ic_playlistop"
+        app:showAsAction="never"
+        android:title="Add to Playlist"> </item>
+
+
+    <item
+        android:id="@+id/share"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_share"
+        android:title="Share">
+    </item>
+
+    <item
+        android:id="@+id/hidefromscanlist"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_hide"
+        android:title="Hide From ScanList">
+    </item>
+</menu>

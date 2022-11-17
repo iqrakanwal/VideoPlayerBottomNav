@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/media_route_menu_item"-->
+        <!--android:title="@string/media_route_menu_title"-->
+        <!--app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"-->
+        <!--app:showAsAction="ifRoom" />-->
+
+
+    <item
+        android:id="@+id/action_menu"
+        android:title="@string/menu"
+        android:icon="@drawable/ic_addlist"
+        app:showAsAction="ifRoom" />
+
+
+
+
+
+
+
+
+            <item
+                android:id="@+id/backgroundplay"
+                android:title=" Background Play"/>
+            <item
+                android:id="@+id/popupplay"
+                android:title=" Pop Up Play"/>
+
+            <item
+                android:title=" Repeat Mode">
+
+
+
+
+
+                    <item
+                        android:id="@+id/shuffle"
+                        android:title="Shuffle All"/>
+                    <item
+                        android:id="@+id/repeatcurrent"
+                        android:title="Repeat Current"/>
+                    <item
+                        android:id="@+id/loopall"
+                        android:title="Loop All"/>
+
+            </item>
+
+    <item
+        android:id="@+id/equalizer"
+        android:title="Eqaulizer"/>
+
+
+
+
+
+
+
+
+
+
+
+    <item android:id="@+id/properties"
+        android:title="Properties"/>
+        />
+    <item android:id="@+id/share"
+        android:title="Share"/>
+        />
+
+
+
+
+
+
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/delete"-->
+<!--        android:title="Delete"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/properties"-->
+<!--        android:title="Properties"/>-->
+<!--    <item-->
+<!--        android:id="@+id/share"-->
+<!--        android:title="Share"/>-->
+<!--    <item-->
+<!--        android:id="@+id/feedback"-->
+<!--        android:title="Feadback"/>-->
+
+
+
+
+</menu>

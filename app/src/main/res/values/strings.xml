@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">VideoPlayerBottomNav</string>
+    <string name="title_home">Video</string>
+    <string name="title_dashboard">Music</string>
+    <string name="title_notifications">Playlist</string>
+    <string name="tab_text_1">Speed Dial</string>
+    <string name="tab_text_2">Recents</string>
+    <string name="tab_text_3">Contacts</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="premiumversion">Get premium Version</string>
+    <string name="video">Video</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="durationformatshort">short</string>
+    <string name="durationformatlong">long</string>
+    <string name="file_location">filelocation</string>
+    <string name="format">formet</string>
+    <string name="file_size">filesize</string>
+    <string name="duration">duration</string>
+    <string name="resolution">resolution</string>
+    <string name="date_added">date added</string>
+    <string name="action_share">share</string>
+    <string name="now_playing">Now playing</string>
+    <string name="delete_video">delete</string>
+    <string name="confirm">confirm</string>
+    <string name="confirm_delete">confirmdelete</string>
+    <string name="confirm_cancel">confirmcancel</string>
+    <string name="menu">menu</string>
+    <string name="action_info">info</string>
+    <string name="msg">feedback</string>
+    <string name="action_play_popup">popup</string>
+    <string name="action_play_background">backgroundplay</string>
+    <string name="action_rename">rename</string>
+    <string name="properties">properties</string>
+    <string name="action_delete">delete</string>
+    <string name="enter_new_name">Enter Name</string>
+    <string name="fileNameExist">Existing name</string>
+    <string name="cancel">cancel</string>
+    <string name="unexpected_error_occurred_try_again">error</string>
+    <string name="eq">equilizer</string>
+    <string name="forget_password"><u>forget password?</u></string>
+    <string name="search_hint">Enter</string>
+</resources>

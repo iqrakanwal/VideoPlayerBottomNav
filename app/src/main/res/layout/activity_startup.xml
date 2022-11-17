@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_centerHorizontal="true"
+
+      >
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        app:lottie_rawRes="@drawable/ic_splashicon"
+        android:layout_marginTop="30dp"
+        app:lottie_autoPlay="true"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/animation_view"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Expert "
+          android:textSize="20dp"
+          android:textColor="#4b4b4b"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Cleaner"
+          android:textSize="20dp"
+          android:textColor="#3bc1ab"
+          android:textAllCaps="true"
+          android:textStyle="bold"
+          />
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_alignParentBottom="true"
+      android:gravity="center"
+      android:layout_marginBottom="50dp"
+>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Get Started"
+        android:onClick="next"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="By continuing you are agreeing to "
+
+          android:textColor="#C6747373"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="Privacy Policy"
+          android:textColor="#000"
+          android:onClick="go_to_pp"
+          />
+    </LinearLayout>
+
+
+
+  </LinearLayout>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#D2000000"
+      android:id="@+id/loading_adlayout"
+      android:visibility="gone"
+      >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+      <ProgressBar
+          android:layout_width="20dp"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:progressTint="@color/colorPrimary"
+          android:indeterminateTint="@color/colorPrimary"
+
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Loading Ad"
+          android:layout_gravity="center"
+          android:textColor="@color/colorPrimary"
+          android:layout_marginLeft="10dp" />
+    </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

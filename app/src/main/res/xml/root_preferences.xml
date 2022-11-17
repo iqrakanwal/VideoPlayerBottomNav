@@ -1,0 +1,133 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceCategory app:title="Premium"
+
+        android:fontFamily="sans-serif">
+
+        <EditTextPreference
+            app:key="getpremiumversion"
+            android:fontFamily="sans-serif"
+
+            app:title="@string/premiumversion">
+
+
+            <intent
+                android:action="AuthenticatorActivity"
+                android:targetPackage="com.videoplayer.mediaplaye.privatevideo.player"
+                android:targetClass="com.videoplayer.mediaplaye.privatevideo.player.ThemeActivity" />
+        </EditTextPreference>
+        <!--        <EditTextPreference-->
+<!--            app:key="signature"-->
+<!--            app:title="@string/signature_title"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+
+<!--        <ListPreference-->
+<!--            app:defaultValue="reply"-->
+<!--            app:entries="@array/reply_entries"-->
+<!--            app:entryValues="@array/reply_values"-->
+<!--            app:key="reply"-->
+<!--            app:title="@string/reply_title"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="General"
+        android:fontFamily="sans-serif"
+        >
+
+        <Preference
+            app:key="theme"
+            app:title="Theme"
+            android:fontFamily="sans-serif"
+
+
+            android:summary="@string/title_home"
+            >
+
+            <intent
+                android:action="AuthenticatorActivity"
+                android:targetPackage="com.videoplayer.mediaplaye.privatevideo.player"
+                android:targetClass="com.videoplayer.mediaplaye.privatevideo.player.ThemeActivity" />
+        </Preference>
+
+
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:key="sync"-->
+<!--            app:title="@string/sync_title" />-->
+<!--        <PreferenceCategory app:title="Media">-->
+<!--            <SwitchPreferenceCompat-->
+<!--                app:key="showmusic"-->
+<!--                app:summaryOff="Support Music player and Playlist"-->
+<!--                app:summaryOn="Show Music"-->
+<!--                app:title="Show Music" />-->
+
+<!--            <EditTextPreference-->
+<!--                app:key="managescanlist"-->
+<!--                app:title="Manage ScanList"-->
+<!--                app:defaultValue="Hide or show folder"-->
+<!--                />-->
+<!--        </PreferenceCategory>-->
+
+        <PreferenceCategory app:title="Playback">
+            <SwitchPreferenceCompat
+                app:key="autoplay"
+                android:fontFamily="sans-serif"
+
+
+                app:summaryOff="Automatically play next video when current video ends. take effect on order mode."
+                app:summaryOn="Auto Play Next"
+                app:title="Auto Play Next" />
+
+            <SwitchPreferenceCompat
+                app:key="backgroundplaycheck"
+                android:fontFamily="sans-serif"
+
+                app:summaryOff="Remember background play for all videos once you turn the option on."
+                app:summaryOn="Auto Play Next"
+
+                app:title="Remember background play" />
+        </PreferenceCategory>
+        <PreferenceCategory app:title="Help">
+
+
+
+            <EditTextPreference
+                app:key="feekback"
+                android:fontFamily="sans-serif"
+                app:title="Feedback"
+                app:allowDividerAbove="true"
+
+                app:useSimpleSummaryProvider="true"
+                />
+
+
+        </PreferenceCategory>
+        <PreferenceCategory app:title="About">
+
+
+
+            <EditTextPreference
+                app:key="privacy"
+                app:title="Privacy Policy"
+                android:fontFamily="sans-serif"
+
+                app:allowDividerAbove="true"
+
+                app:useSimpleSummaryProvider="true"
+                />
+     <EditTextPreference
+                app:key="version"
+                app:title="Version"
+         android:fontFamily="sans-serif"
+
+         app:useSimpleSummaryProvider="true"
+                />
+
+
+        </PreferenceCategory>
+    </PreferenceCategory>
+
+</PreferenceScreen>
